@@ -1,0 +1,18 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+# editorconfig.org
+# Examples: https://github.com/editorconfig/editorconfig/wiki/Projects-Using-EditorConfig
+# This one is using: https://github.com/a11yproject/a11yproject.com/blob/gh-pages/.editorconfig
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
